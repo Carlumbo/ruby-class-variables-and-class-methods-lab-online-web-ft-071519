@@ -4,9 +4,7 @@ class Song
     @artist = artist
     @genre = genre
   end 
-  def name=(name)
-    @name = name 
-  end 
+ attr_accessor :name
 end 
 
 =begin
