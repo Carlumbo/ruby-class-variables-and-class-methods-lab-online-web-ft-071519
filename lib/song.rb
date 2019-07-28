@@ -1,6 +1,8 @@
 class Song 
   @@count = 0 
   @@artist = []
+  
+  def self.artist 
   def self.count
     @@count
   end 
