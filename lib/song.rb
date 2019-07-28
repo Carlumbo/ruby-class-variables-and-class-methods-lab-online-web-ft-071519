@@ -22,6 +22,7 @@ class Song
   end 
   def self.artist_count
     @@artist.inject(Hash.new(0)) {|tot_art, a | tot_art[a] += 1 tot_art}
+    
   def self.genre_count
     @@genres.inject(Hash.new(0)) { |tot_gen, g | tot_gen[g] += 1
     tot_gen} 
