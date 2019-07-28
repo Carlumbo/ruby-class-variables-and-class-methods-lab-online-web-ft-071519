@@ -21,7 +21,7 @@ class Song
     @@genres.uniq
   end 
   def genre_count
-    @@genres.inject (hash.new)
+    @@genres.inject (hash.new(0))
   def initialize(name,artist,genre)
     @name = name 
     @artist = artist
