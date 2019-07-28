@@ -21,7 +21,8 @@ class Song
     @@genres.uniq
   end 
   def genre
-    @@genres = {} { |gen|, g genres[g] += g } 
+    @@genres = {} { |tot_gen, g | tot_gen[g] += i, tot_gen} 
+  end 
   def initialize(name,artist,genre)
     @name = name 
     @artist = artist
