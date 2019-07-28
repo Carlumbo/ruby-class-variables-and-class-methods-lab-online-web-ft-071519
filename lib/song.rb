@@ -13,35 +13,21 @@ class Song
     @@count
   end 
   
-  def genres.
+  def self.artist
+    @@artist.uniqu
+  end 
+  
+  def self.genres
+    @@genres.uniqu
+  end 
+  
   def initialize(name,artist,genre)
     @name = name 
     @artist = artist
     @@artists << artist
-    
     @genre = genre
-     # if !(@@genres.include?(genre))
-        @@genres << genre
-     # end 
+    @@genres << genre
     @@count += 1
   end 
  attr_accessor :name, :artist, :genre
 end 
-
-=begin
-def name=(name)
-    @name = name
-  end 
-  def name 
-    @name 
-  end 
-  def artist=(artist)
-    @artist = artist
-  end 
-  def genre=(genre)
-    @genre = genre 
-  end 
-  def genre 
-    @genre 
-  end 
-=end
