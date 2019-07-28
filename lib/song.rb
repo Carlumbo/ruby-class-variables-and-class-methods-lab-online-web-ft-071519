@@ -1,5 +1,14 @@
 class Song 
-  def name=(name)
+  def initialize(name,artist,genre)
+    @name = name 
+    @artist = artist
+    @genre = genre
+  end 
+  
+end 
+
+=begin
+def name=(name)
     @name = name
   end 
   def name 
@@ -14,5 +23,4 @@ class Song
   def genre 
     @genre 
   end 
-  
-end 
+=end
