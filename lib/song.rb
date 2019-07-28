@@ -4,7 +4,7 @@ class Song
     @artist = artist
     @genre = genre
   end 
- attr_accessor :name
+ attr_accessor :name, :artist, :genre
 end 
 
 =begin
